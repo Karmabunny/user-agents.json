@@ -1,0 +1,96 @@
+[
+	{
+		"regex": "!Windows NT ([.0-9]+)!i",
+		"on": "Windows",
+		"ov": "$1",
+		"dc": "Desktop"
+	},
+	{
+		"regex": "!OS X ([0-9]+)_([0-9]+)!i",
+		"on": "Macintosh",
+		"ov": "$1.$2"
+	},
+	{
+		"regex": "!X11|Linux!i",
+		"on": "Linux",
+		"dc": "Desktop"
+	},
+	
+	{
+		"regex": "!MSIE ([.0-9]+)!i",
+		"bn": "Internet Explorer",
+		"bv": "$1"
+	},
+	{
+		"regex": "!Trident/[.0-9]+;.+rv:([.0-9]+)!i",
+		"bn": "Internet Explorer",
+		"bv": "$1"
+	},
+	{
+		"regex": "!Firefox/([.0-9]+)!i",
+		"bn": "Firefox",
+		"bv": "$1"
+	},
+	{
+		"regex": "!Chrome/([.0-9]+)!i",
+		"bn": "Chrome",
+		"bv": "$1"
+	},
+	{
+		"regex": "!Safari/([.0-9]+)!i",
+		"bn": "Safari",
+		"bv": "$1"
+	},
+	
+	{
+		"regex": "!Android (4[.0-9]+)!i",
+		"on": "Android",
+		"ov": "$1",
+		"dc": "Mobile",
+		"bn": "",
+		"bv": "",
+		"rules": [
+			{ "regex": "~Version/([.0-9]+) Mobile~i", "bn": "Android Browser", "bv": "$1", "dc": "Mobile" },
+			{ "regex": "~Version/([.0-9]+) (?!Mobile)~i", "bn": "Android Browser", "bv": "$1", "dc": "Tablet" },
+			{ "regex": "~Chrome/([.0-9]+) Mobile~i", "bn": "Chrome", "bv": "$1", "dc": "Mobile" },
+			{ "regex": "~Chrome/([.0-9]+) (?!Mobile)~i", "bn": "Chrome", "bv": "$1", "dc": "Tablet" }
+		]
+	},
+	{
+		"regex": "!Android (3[.0-9]+)!i",
+		"on": "Android",
+		"ov": "$1",
+		"dc": "Tablet",
+		"rules": [
+			{ "regex": "~Version/([.0-9]+)~i", "bn": "Android Browser", "bv": "$1" },
+			{ "regex": "~Chrome/([.0-9]+)~i", "bn": "Chrome", "bv": "$1" }
+		]
+	},
+	{
+		"regex": "!Android (2[.0-9]+)!i",
+		"on": "Android",
+		"ov": "$1",
+		"dc": "Mobile",
+		"rules": [
+			{ "regex": "~Version/([.0-9]+)~i", "bn": "Android Browser", "bv": "$1" },
+			{ "regex": "~Chrome/([.0-9]+)~i", "bn": "Chrome", "bv": "$1" }
+		]
+	},
+	{
+		"regex": "!iOS ([0-9]+)_([0-9]+)!i",
+		"on": "iOS",
+		"ov": "$1.$2",
+		"rules": [
+			{ "regex": "!Version/([.0-9]+).+Safari/[.0-9]+!i", "bn": "Safari", "bv": "$1" },
+			{ "regex": "!CriOS/([.0-9]+).+Safari/[.0-9]+!i", "bn": "Chrome", "bv": "$1" },
+			{ "regex": "!iPhone|iPod!", "dc": "Mobile" },
+			{ "regex": "!iPad!", "dc": "Tablet" }
+		]
+	},
+	{
+		"regex": "!Windows Phone (?:OS )?([.0-9]+)!i",
+		"on": "Windows Phone",
+		"ov": "$1",
+		"dc": "Mobile"
+	}
+]
