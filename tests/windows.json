@@ -1,0 +1,18 @@
+[
+	{
+		"ua":"Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; AS; rv:11.0) like Gecko",
+		"on":"Windows",
+		"ov":"6.1",
+		"bn":"Internet Explorer",
+		"bv":"11.0",
+		"dc":"Desktop"
+	},
+	{
+		"ua":"Mozilla\/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0)",
+		"on":"Windows Phone",
+		"ov":"7.5",
+		"bn":"Internet Explorer",
+		"bv":"9.0",
+		"dc":"Mobile"
+	}
+]

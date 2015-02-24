@@ -1,0 +1,19 @@
+[
+	{
+		"ua":"Mozilla\/5.0 (Linux; U; Android 4.0.3; de-de; Galaxy S II Build\/GRJ22) AppleWebKit\/534.30 (KHTML, like Gecko) Version\/4.0 Mobile Safari\/534.30",
+		"on":"Android",
+		"ov":"4.0.3",
+		"bn":"Android Browser",
+		"bv":"4.0",
+		"dc":"Mobile"
+	},
+	{
+		"ua":"Mozilla\/5.0 (Linux; Android 4.2.2; SM-T310 Build\/JDQ39) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/30.0.1599.82",
+		"on":"Android",
+		"ov":"4.2.2",
+		"bn":"Chrome",
+		"bv":"30.0.1599.82",
+		"dc":"Tablet"
+	}
+]
+
