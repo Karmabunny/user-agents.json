@@ -37,7 +37,7 @@
 		"bv": "$1"
 	},
 	{
-		"regex": "!Safari/([.0-9]+)!i",
+		"regex": "!Version/([.0-9]+) Safari/[.0-9]+!i",
 		"bn": "Safari",
 		"bv": "$1"
 	},
@@ -77,7 +77,7 @@
 		]
 	},
 	{
-		"regex": "!iOS ([0-9]+)_([0-9]+)!i",
+		"regex": "!(?:iPad|iPod|iPhone).+OS ([0-9]+)_([0-9]+)!i",
 		"on": "iOS",
 		"ov": "$1.$2",
 		"rules": [

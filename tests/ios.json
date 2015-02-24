@@ -1,0 +1,16 @@
+[
+	{
+		"ua":"Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25",
+		"on":"iOS",
+		"ov":"6.0",
+		"bn":"Safari",
+		"bv":"6.0",
+		"dc":"Tablet"
+	},
+	{
+		"ua":"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190",
+		"on":"iOS",
+		"ov":"4.3",
+		"dc":"Mobile"
+	}
+]
