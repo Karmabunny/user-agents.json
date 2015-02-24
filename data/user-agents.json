@@ -8,7 +8,8 @@
 	{
 		"regex": "!OS X ([0-9]+)_([0-9]+)!i",
 		"on": "Macintosh",
-		"ov": "$1.$2"
+		"ov": "$1.$2",
+		"dc": "Desktop"
 	},
 	{
 		"regex": "!X11|Linux!i",
