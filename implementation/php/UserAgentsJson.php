@@ -47,6 +47,7 @@ class UserAgentsJson
 
 			if (isset($obj->on)) $out['on'] = $this->preg_inject($obj->on, $matches);
 			if (isset($obj->ov)) $out['ov'] = $this->preg_inject($obj->ov, $matches);
+			if (isset($obj->ot)) $out['ot'] = $this->preg_inject($obj->ot, $matches);
 			if (isset($obj->bn)) $out['bn'] = $this->preg_inject($obj->bn, $matches);
 			if (isset($obj->bv)) $out['bv'] = $this->preg_inject($obj->bv, $matches);
 			if (isset($obj->dc)) $out['dc'] = $this->preg_inject($obj->dc, $matches);
