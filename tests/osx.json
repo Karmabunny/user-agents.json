@@ -22,5 +22,13 @@
 		"bn":"Safari",
 		"bv":"5.1.7",
 		"dc":"Desktop"
+	},
+	{
+		"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0",
+		"on":"Macintosh",
+		"ov":"10.10",
+		"bn":"Firefox",
+		"bv":"40.0",
+		"dc":"Desktop"
 	}
 ]
