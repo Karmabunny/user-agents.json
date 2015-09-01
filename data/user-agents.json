@@ -18,7 +18,16 @@
 		"regex": "!OS X ([0-9]+)[_.]([0-9]+)!i",
 		"on": "Macintosh",
 		"ov": "$1.$2",
-		"dc": "Desktop"
+		"dc": "Desktop",
+		"rules": [
+			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.5 Leopard" },
+			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.6 Snow Leopard" },
+			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.7 Lion" },
+			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.8 Mountain Lion" },
+			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.9 Mavericks" },
+			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.10 Yosemite" },
+			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.11 El Capitan" }
+		]
 	},
 	{
 		"regex": "!X11|Linux!i",
