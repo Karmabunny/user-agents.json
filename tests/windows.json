@@ -46,5 +46,13 @@
 		"bn":"Safari",
 		"bv":"5.0.4",
 		"dc":"Desktop"
+	},
+	{
+		"ua":"Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko",
+		"on":"Windows",
+		"ov":"6.3",
+		"bn":"Internet Explorer",
+		"bv":"11.0",
+		"dc":"Desktop"
 	}
 ]
