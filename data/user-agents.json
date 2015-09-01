@@ -21,12 +21,12 @@
 		"dc": "Desktop",
 		"rules": [
 			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.5 Leopard" },
-			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.6 Snow Leopard" },
-			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.7 Lion" },
-			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.8 Mountain Lion" },
-			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.9 Mavericks" },
-			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.10 Yosemite" },
-			{ "regex": "!OS X 10[_.]5!", "ot": "OS X 10.11 El Capitan" }
+			{ "regex": "!OS X 10[_.]6!", "ot": "OS X 10.6 Snow Leopard" },
+			{ "regex": "!OS X 10[_.]7!", "ot": "OS X 10.7 Lion" },
+			{ "regex": "!OS X 10[_.]8!", "ot": "OS X 10.8 Mountain Lion" },
+			{ "regex": "!OS X 10[_.]9!", "ot": "OS X 10.9 Mavericks" },
+			{ "regex": "!OS X 10[_.]10!", "ot": "OS X 10.10 Yosemite" },
+			{ "regex": "!OS X 10[_.]11!", "ot": "OS X 10.11 El Capitan" }
 		]
 	},
 	{
