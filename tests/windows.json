@@ -3,6 +3,7 @@
 		"ua":"Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; AS; rv:11.0) like Gecko",
 		"on":"Windows",
 		"ov":"6.1",
+		"ot":"Windows 7",
 		"bn":"Internet Explorer",
 		"bv":"11.0",
 		"dc":"Desktop"
@@ -11,6 +12,7 @@
 		"ua":"Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; AS; rv:11.0) like Gecko",
 		"on":"Windows",
 		"ov":"6.1",
+		"ot":"Windows 7",
 		"bn":"Internet Explorer",
 		"bv":"11.0",
 		"dc":"Desktop"
@@ -19,6 +21,7 @@
 		"ua":"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)",
 		"on":"Windows",
 		"ov":"6.1",
+		"ot":"Windows 7",
 		"bn":"Internet Explorer",
 		"bv":"9.0",
 		"dc":"Desktop"
@@ -27,6 +30,7 @@
 		"ua":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20130401 Firefox/31.0",
 		"on":"Windows",
 		"ov":"6.1",
+		"ot":"Windows 7",
 		"bn":"Firefox",
 		"bv":"31.0",
 		"dc":"Desktop"
@@ -35,6 +39,7 @@
 		"ua":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
 		"on":"Windows",
 		"ov":"6.1",
+		"ot":"Windows 7",
 		"bn":"Chrome",
 		"bv":"41.0.2228.0",
 		"dc":"Desktop"
@@ -43,6 +48,7 @@
 		"ua":"Mozilla/5.0 (Windows; U; Windows NT 6.1; tr-TR) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27",
 		"on":"Windows",
 		"ov":"6.1",
+		"ot":"Windows 7",
 		"bn":"Safari",
 		"bv":"5.0.4",
 		"dc":"Desktop"
@@ -51,6 +57,7 @@
 		"ua":"Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko",
 		"on":"Windows",
 		"ov":"6.3",
+		"ot":"Windows 8.1",
 		"bn":"Internet Explorer",
 		"bv":"11.0",
 		"dc":"Desktop"
