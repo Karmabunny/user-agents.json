@@ -72,7 +72,9 @@
 			{ "regex": "~Version/([.0-9]+) Mobile~i", "bn": "Android Browser", "bv": "$1", "dc": "Mobile" },
 			{ "regex": "~Version/([.0-9]+) (?!Mobile)~i", "bn": "Android Browser", "bv": "$1", "dc": "Tablet" },
 			{ "regex": "~Chrome/([.0-9]+) Mobile~i", "bn": "Chrome", "bv": "$1", "dc": "Mobile" },
-			{ "regex": "~Chrome/([.0-9]+) (?!Mobile)~i", "bn": "Chrome", "bv": "$1", "dc": "Tablet" }
+			{ "regex": "~Chrome/([.0-9]+) (?!Mobile)~i", "bn": "Chrome", "bv": "$1", "dc": "Tablet" },
+			{ "regex": "~SamsungBrowser/([.0-9]+) Mobile~i", "bn": "Samsung Browser", "bv": "$1", "dc": "Mobile" },
+			{ "regex": "~SamsungBrowser/([.0-9]+) (?!Mobile)~i", "bn": "Samsung Browser", "bv": "$1", "dc": "Tablet" }
 		]
 	},
 	{
