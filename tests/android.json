@@ -14,6 +14,14 @@
 		"bn":"Chrome",
 		"bv":"30.0.1599.82",
 		"dc":"Tablet"
+	},
+	{
+		"ua":"Mozilla\/5.0 (Linux; Android 5.0.2; SAMSUNG SM-P350 Build/LRX22G) AppleWebKit\/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome\/38.0.2125.102 Safari/537.36",
+		"on":"Android",
+		"ov":"5.0.2",
+		"bn":"Samsung Browser",
+		"bv":"3.3",
+		"dc":"Tablet"
 	}
 ]
 
