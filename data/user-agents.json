@@ -71,6 +71,11 @@
 		"bn": "Opera",
 		"bv": "$1"
 	},
+	{
+		"regex": "!YaBrowser/([.0-9]+)!i",
+		"bn": "Yandex",
+		"bv": "$1"
+	},
 	
 	{
 		"regex": "!Android ([45][.0-9]+)!i",
