@@ -11,7 +11,8 @@
 			{ "regex": "!Windows NT 6.0!", "ot": "Windows Vista" },
 			{ "regex": "!Windows NT 6.1!", "ot": "Windows 7" },
 			{ "regex": "!Windows NT 6.2!", "ot": "Windows 8" },
-			{ "regex": "!Windows NT 6.3!", "ot": "Windows 8.1" }
+			{ "regex": "!Windows NT 6.3!", "ot": "Windows 8.1" },
+			{ "regex": "!Windows NT (10.[0-9]+)!", "ot": "Windows $1" }
 		]
 	},
 	{
@@ -58,6 +59,11 @@
 	{
 		"regex": "!Version/([.0-9]+) Safari/[.0-9]+!i",
 		"bn": "Safari",
+		"bv": "$1"
+	},
+	{
+		"regex": "!Edge/([.0-9]+)!i",
+		"bn": "Edge",
 		"bv": "$1"
 	},
 	
