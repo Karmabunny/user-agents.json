@@ -12,7 +12,7 @@
 			{ "regex": "!Windows NT 6.1!", "ot": "Windows 7" },
 			{ "regex": "!Windows NT 6.2!", "ot": "Windows 8" },
 			{ "regex": "!Windows NT 6.3!", "ot": "Windows 8.1" },
-			{ "regex": "!Windows NT (10.[0-9]+)!", "ot": "Windows $1" }
+			{ "regex": "!Windows NT 10.[0-9]+!", "ot": "Windows 10" }
 		]
 	},
 	{
