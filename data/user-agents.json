@@ -78,7 +78,7 @@
 	},
 	
 	{
-		"regex": "!Android ([45][.0-9]+)!i",
+		"regex": "!Android ([456][.0-9]+)!i",
 		"on": "Android",
 		"ov": "$1",
 		"dc": "Mobile",
