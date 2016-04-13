@@ -81,16 +81,16 @@
 		"regex": "!Android ([456][.0-9]+)!i",
 		"on": "Android",
 		"ov": "$1",
-		"dc": "Mobile",
+		"dc": "Tablet",
 		"bn": "",
 		"bv": "",
 		"rules": [
-			{ "regex": "~Version/([.0-9]+) Mobile~i", "bn": "Android Browser", "bv": "$1", "dc": "Mobile" },
-			{ "regex": "~Version/([.0-9]+) (?!Mobile)~i", "bn": "Android Browser", "bv": "$1", "dc": "Tablet" },
-			{ "regex": "~Chrome/([.0-9]+) Mobile~i", "bn": "Chrome", "bv": "$1", "dc": "Mobile" },
-			{ "regex": "~Chrome/([.0-9]+) (?!Mobile)~i", "bn": "Chrome", "bv": "$1", "dc": "Tablet" },
-			{ "regex": "~SamsungBrowser/([.0-9]+) Mobile~i", "bn": "Samsung Browser", "bv": "$1", "dc": "Mobile" },
-			{ "regex": "~SamsungBrowser/([.0-9]+) (?!Mobile)~i", "bn": "Samsung Browser", "bv": "$1", "dc": "Tablet" }
+			{ "regex": "~Chrome/([.0-9]+)~", "bn": "Chrome", "bv": "$1" },
+			{ "regex": "~Version/([.0-9]+)~i", "bn": "Android Browser", "bv": "$1" },
+			{ "regex": "~SamsungBrowser/([.0-9]+)~i", "bn": "Samsung Browser", "bv": "$1" },
+			{ "regex": "~Firefox/([.0-9]+)~i", "bn": "Firefox", "bv": "$1" },
+			{ "regex": "~OPR/([.0-9]+)~i", "bn": "Opera", "bv": "$1" },
+			{ "regex": "~Mobile~i", "dc": "Mobile" }
 		]
 	},
 	{
