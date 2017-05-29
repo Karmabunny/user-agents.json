@@ -129,5 +129,13 @@
 		"on": "Windows Phone",
 		"ov": "$1",
 		"dc": "Mobile"
+	},
+	{
+		"regex": "!google\\.com/bot!",
+		"bot": "Google",
+		"dc": "Desktop",
+		"rules": [
+			{ "regex": "!Googlebot-Mobile!", "dc": "Mobile" }
+		]
 	}
 ]

@@ -1,0 +1,12 @@
+[
+	{
+		"ua":"Mozilla/5.0 (compatible; Googlebot/2.1; http://www.google.com/bot.html)",
+		"dc":"Desktop",
+		"bot":"Google"
+	},
+	{
+		"ua":"Mozilla/5.0 (iPhone; U; CPU iPhone OS) (compatible; Googlebot-Mobile/2.1; http://www.google.com/bot.html)",
+		"dc":"Mobile",
+		"bot":"Google"
+	}
+]
