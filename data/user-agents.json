@@ -137,5 +137,13 @@
 		"rules": [
 			{ "regex": "!Googlebot-Mobile!", "dc": "Mobile" }
 		]
+	},
+	{
+		"regex": "!bing\\.com/bingbot!",
+		"bot": "Bing",
+		"dc": "Desktop",
+		"rules": [
+			{ "regex": "!Phone!", "dc": "Mobile" }
+		]
 	}
 ]

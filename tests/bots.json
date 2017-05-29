@@ -8,5 +8,19 @@
 		"ua":"Mozilla/5.0 (iPhone; U; CPU iPhone OS) (compatible; Googlebot-Mobile/2.1; http://www.google.com/bot.html)",
 		"dc":"Mobile",
 		"bot":"Google"
+	},
+	{
+		"ua":"Mozilla/5.0 (compatible; bingbot/2.0 http://www.bing.com/bingbot.htm)",
+		"dc":"Desktop",
+		"bot":"Bing"
+	},
+	{
+		"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+		"dc":"Mobile",
+		"bn": "Safari",
+		"bv": "7.0",
+		"on": "iOS",
+		"ov": "7.0",
+		"bot":"Bing"
 	}
 ]
