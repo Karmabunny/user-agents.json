@@ -24,6 +24,30 @@
 		"dc":"Tablet"
 	},
 	{
+		"ua":"Mozilla\/5.0 (Linux; Android 9.0.0; SAMSUNG SM-P350 Build/LRX22G) AppleWebKit\/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome\/38.0.2125.102 Safari/537.36",
+		"on":"Android",
+		"ov":"9.0.0",
+		"bn":"Samsung Browser",
+		"bv":"3.3",
+		"dc":"Tablet"
+	},
+	{
+		"ua":"Mozilla\/5.0 (Linux; Android 10.0.0; SAMSUNG SM-P350 Build/LRX22G) AppleWebKit\/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome\/38.0.2125.102 Safari/537.36",
+		"on":"Android",
+		"ov":"10.0.0",
+		"bn":"Samsung Browser",
+		"bv":"3.3",
+		"dc":"Tablet"
+	},
+	{
+		"ua":"Mozilla\/5.0 (Linux; Android 13.0.0; SAMSUNG SM-P350 Build/LRX22G) AppleWebKit\/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome\/38.0.2125.102 Safari/537.36",
+		"on":"Android",
+		"ov":"13.0.0",
+		"bn":"Samsung Browser",
+		"bv":"3.3",
+		"dc":"Tablet"
+	},
+	{
 		"ua":"Mozilla/5.0 (Linux; Android 7.0; SM-G930F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36",
 		"on":"Android",
 		"ov":"7.0",
