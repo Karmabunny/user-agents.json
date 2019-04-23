@@ -35,7 +35,7 @@
 		"on": "Linux",
 		"dc": "Desktop"
 	},
-	
+
 	{
 		"regex": "!MSIE ([.0-9]+)!i",
 		"bn": "Internet Explorer",
@@ -76,9 +76,9 @@
 		"bn": "Yandex",
 		"bv": "$1"
 	},
-	
+
 	{
-		"regex": "!Android ([1456789][0-9]?[.0-9]+)!i",
+		"regex": "!Android ([1456789][0-9]?[.0-9]*)!i",
 		"on": "Android",
 		"ov": "$1",
 		"dc": "Tablet",
