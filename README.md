@@ -31,6 +31,17 @@ Output fields are as follows:
 
 Note that fields will not be set if the system cannot determine the value.
 
+## Automatically fetching data
+It's a good idea to auto-update the JSON rules from time to time, so that new
+devices and browsers will be recognised.
+
+The URL for fetching data is:
+```
+https://raw.githubusercontent.com/Karmabunny/user-agents.json/master/data/user-agents.json
+```
+
+This fetch can be done easily using cron/cURL or server-side scripting code.
+
 ## Adding rules
 Matching begins with an empty state object.
 
