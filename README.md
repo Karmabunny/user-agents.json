@@ -13,6 +13,24 @@ in other languages (pull requests welcome).
 This current implementation does not download the file from a central server, but this would not be
 difficult to implement either in the calling code or by extending the implementation (pull requests welcome).
 
+## Input
+The input should be a full user agent string
+
+## Output fields
+Output fields are as follows:
+
+| Field | Purpose                  | Examples                                |
+|-------|--------------------------|-----------------------------------------|
+| dc    | Device category          | Mobile, Tablet, Desktop                 |
+| on    | Operating system name    | Windows, Macintosh, Linux, Android, iOS |
+| ov    | Operating system version | 5.0, 5.1, 10.2                          |
+| ot    | Operating system title   | Windows XP, Windows 7                   |
+| bn    | Browser name             | Chrome, Firefox, Safari                 |
+| bv    | Browser version          | 73.0.3683.75, 60.0                      |
+| bot   | Name of robot            | Google, Bing                            |
+
+Note that fields will not be set if the system cannot determine the value.
+
 ## Adding rules
 Matching begins with an empty state object.
 
