@@ -8,6 +8,14 @@
 		"dc":"Tablet"
 	},
 	{
+	    "ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4",
+	    "on":"iOS",
+		"ov":"8.3",
+		"bn":"Firefox",
+		"bv":"1.0",
+		"dc":"Mobile"
+	},
+	{
 		"ua":"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190",
 		"on":"iOS",
 		"ov":"4.3",

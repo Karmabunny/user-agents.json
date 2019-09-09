@@ -120,6 +120,7 @@
 		"rules": [
 			{ "regex": "!Version/([.0-9]+).+Safari/[.0-9]+!i", "bn": "Safari", "bv": "$1" },
 			{ "regex": "!CriOS/([.0-9]+).+Safari/[.0-9]+!i", "bn": "Chrome", "bv": "$1" },
+			{ "regex": "!FxiOS/([.0-9]+).+Safari/[.0-9]+!i", "bn": "Firefox", "bv": "$1" },
 			{ "regex": "!iPhone|iPod!", "dc": "Mobile" },
 			{ "regex": "!iPad!", "dc": "Tablet" }
 		]
